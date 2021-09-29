@@ -19,3 +19,5 @@ FILE="$FILE6" && [ 0 -lt ${#FILE} ] && decompress "$FILE"
 FILE="$FILE7" && [ 0 -lt ${#FILE} ] && decompress "$FILE"
 FILE="$FILE8" && [ 0 -lt ${#FILE} ] && decompress "$FILE"
 FILE="$FILE9" && [ 0 -lt ${#FILE} ] && decompress "$FILE"
+
+exit 0
