@@ -6,7 +6,6 @@ decompress () {
   mkdir -p "$DEST_DIR" &&
   tar -xzf "$TAR_FILE" -C "$DEST_DIR"
   rm "$TAR_FILE"
-  rm -dr "$DEST_DIR"
 }
 
 FILE="$1"     && [ 0 -lt ${#FILE} ] && decompress "$FILE"
